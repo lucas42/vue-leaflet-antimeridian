@@ -20,3 +20,10 @@ There is a rough example in the `example` directory.  To see this working locall
 * At the time of writing, [Leaflet.Antimeridian](https://github.com/briannaAndCo/Leaflet.Antimeridian) hadn't seen any updates since 2017.
 * The author of vue-leaflet-antimeridian has no prior experience of using vue or leaflet.
 * Vue 2 reached its [End of Life](https://v2.vuejs.org/eol/) in 2023.
+
+## Building & Publishing the module
+
+To build the module and publish it to npm registry, ensure the version field in _package.json_ has been updated, and run the following commands:
+
+* `npm run build`
+* `npm publish`

@@ -1,15 +1,19 @@
 {
   "name": "vue-leaflet-antimeridian",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An antimeridian plugin extension for the vue-leaflet package",
-  "main": "index.js",
+  "main": "dist/vue-leaflet-antimeridian.umd.js",
   "directories": {
     "example": "example"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "example": "vite serve example"
+    "example": "vite serve example",
+    "build": "vite build"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "vue-leaflet",
     "antimeridian"
