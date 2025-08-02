@@ -1,6 +1,6 @@
 {
   "name": "vue-leaflet-antimeridian",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An antimeridian plugin extension for the vue-leaflet package",
   "main": "dist/vue-leaflet-antimeridian.umd.js",
   "directories": {
@@ -20,11 +20,11 @@
   ],
   "author": "lucas42",
   "license": "MIT",
-  "dependencies": {
-    "Leaflet.Antimeridian": "github:briannaAndCo/Leaflet.Antimeridian",
+  "peerDependencies": {
     "vue2-leaflet": "^2.7.1"
   },
   "devDependencies": {
+    "Leaflet.Antimeridian": "github:briannaAndCo/Leaflet.Antimeridian",
     "@vitejs/plugin-vue2": "^2.3.3",
     "vite": "^6.3.5"
   }
