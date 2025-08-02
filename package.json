@@ -1,6 +1,6 @@
 {
   "name": "vue-leaflet-antimeridian",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "An antimeridian plugin extension for the vue-leaflet package",
   "main": "dist/vue-leaflet-antimeridian.umd.js",
   "directories": {
