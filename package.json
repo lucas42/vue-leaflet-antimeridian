@@ -26,6 +26,6 @@
   "devDependencies": {
     "Leaflet.Antimeridian": "github:briannaAndCo/Leaflet.Antimeridian",
     "@vitejs/plugin-vue2": "^2.3.3",
-    "vite": "^6.3.5"
+    "vite": "^8.0.3"
   }
 }
